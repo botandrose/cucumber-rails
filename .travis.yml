@@ -55,6 +55,6 @@ matrix:
       gemfile: gemfiles/rails_5_1.gemfile
 
 before_install:
-  - gem install --remote bundler -v '~> 2.1'
+  - gem install --remote bundler -v '~> 1.17'
   - bin/install_geckodriver.sh
   - bin/install_webpacker.sh
